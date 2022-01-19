@@ -29,3 +29,20 @@ html{
     color: grey;
     margin-right: 2px;
 }
+
+.intro{
+    height:30em;
+    background-color: rgb(173, 78, 9);
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    color: white;
+    border-radius: 2%;
+}
+
+.titolo{
+    padding-left: 40px;
+}
+
+.title{
+    padding-top: 9em;
+}

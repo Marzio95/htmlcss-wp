@@ -57,3 +57,56 @@ html{
     color: gray;
     font-size: small;
 }
+
+
+.contenitore::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.colonna-sx{
+    width: 20%;
+    float: left;
+    color: grey;
+}
+
+.img{
+    height: 12em;
+    background-color: goldenrod;
+    border-radius: 2%;
+}
+
+.p-t{
+    padding: 10px 0;
+}
+
+.colonna-dx{
+    width: 20%;
+    float: right;
+    color: gray;
+}
+
+.colonna-cntr{
+    float: left;
+    margin: 0 1em;
+    width: calc(100% - 40% - 2em);
+    color: gray;  
+}
+
+.img-sx{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+}
+
+.img-cntr{
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-dx{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+}
+}

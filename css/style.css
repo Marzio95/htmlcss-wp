@@ -1,0 +1,31 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin :  0;
+    padding :  0;
+    box-sizing: border-box;
+ }
+
+ .layout{
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .logo{
+     width: 10em;
+ }
+
+ nav{
+    margin: 25px 0;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.menu{
+    color: grey;
+    margin-right: 2px;
+}

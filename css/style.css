@@ -73,8 +73,11 @@ html{
 
 .img{
     height: 12em;
-    background-color: goldenrod;
     border-radius: 2%;
+}
+
+.img::after{
+    background-color: rgb(169,169,169,);
 }
 
 .p-t{

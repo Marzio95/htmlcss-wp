@@ -46,3 +46,14 @@ html{
 .title{
     padding-top: 9em;
 }
+
+.titolo-main{
+    padding: 30px 0 20px 0;
+    font-weight: 1000;
+}
+
+.sottotitolo{
+    display: block;
+    color: gray;
+    font-size: small;
+}

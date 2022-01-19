@@ -109,4 +109,15 @@ html{
     background-image: url(../img/img-3.jpg);
     background-size: cover;
 }
+
+footer{
+    text-align: center;
+    color: black;
+    font-size: smaller;
+    margin: 3em 0;
+    font-weight: 700;
+}
+
+.heart{
+    color: red;
 }
